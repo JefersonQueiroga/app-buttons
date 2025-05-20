@@ -31,19 +31,7 @@ Este app demonstra como criar componentes reutilizáveis e passar propriedades (
 
 ---
 
-## 📁 Estrutura de Pastas
 
-app-buttons/
-├── app/
-│   ├── components/  # componentes reutilizáveis como CustomButton
-│   └── screens/     # telas como HomeScreen com vários botões
-├── assets/          # imagens, fontes, etc.
-├── scripts/         # scripts de suporte (reset-project.js)
-├── package.json
-├── tsconfig.json
-└── README.md
-
----
 
 ## 🔧 Instalação e Execução
 
@@ -60,16 +48,4 @@ O objetivo principal é mostrar como criar um componente de botão que recebe pr
 
 ---
 
-## 🤝 Contribuição
 
-1. Faça um fork do projeto
-2. Crie uma branch de feature: git checkout -b feature/nova-ideia
-3. Faça seus commits: git commit -m "Adiciona nova feature"
-4. Envie para a branch original: git push origin feature/nova-ideia
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo LICENSE para mais detalhes.

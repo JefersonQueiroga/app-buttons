@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# app-buttons
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um projeto simples em React Native (Expo) para ilustrar o conceito de **componentes** e **props** através de diversos botões.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Visão Geral
 
-   ```bash
-   npm install
-   ```
+Este app demonstra como criar componentes reutilizáveis e passar propriedades (props) para customizá-los. Cada botão neste exemplo recebe diferentes propriedades para mostrar como compor e parametrizar a interface.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Tecnologias
 
-In the output, you'll find options to open the app in a
+* React Native 0.79.2
+* Expo \~53.0.9
+* Expo Router \~5.0.6
+* TypeScript 5.8.3
+* @expo/vector-icons ^14.1.0
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📦 Scripts
 
-## Get a fresh project
+* npm start  — inicia o Metro bundler e o painel do Expo
+* npm run android  — abre no emulador/dispositivo Android
+* npm run ios  — abre no emulador/dispositivo iOS
+* npm run web  — inicia no navegador (Web)
+* npm run reset-project  — executa o script de reset de projeto
+* npm run lint  — executa ESLint para checar o padrão de código
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📁 Estrutura de Pastas
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+app-buttons/
+├── app/
+│   ├── components/  # componentes reutilizáveis como CustomButton
+│   └── screens/     # telas como HomeScreen com vários botões
+├── assets/          # imagens, fontes, etc.
+├── scripts/         # scripts de suporte (reset-project.js)
+├── package.json
+├── tsconfig.json
+└── README.md
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🔧 Instalação e Execução
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Clone este repositório: [https://github.com/jefersonqueiroga/app-buttons.git](https://github.com/jefersonqueiroga/app-buttons.git)
+2. Acesse a pasta do projeto: cd app-buttons
+3. Instale as dependências: npm install
+4. Inicie o projeto: npm start  (e escolha a plataforma: Android, iOS ou Web)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 💡 Conceito de Componentes e Props
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+O objetivo principal é mostrar como criar um componente de botão que recebe propriedades para personalização, como o texto exibido e a ação ao ser pressionado. Em seguida, utilizamos esse mesmo componente em uma tela principal, passando props diferentes para cada instância.
+
+---
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch de feature: git checkout -b feature/nova-ideia
+3. Faça seus commits: git commit -m "Adiciona nova feature"
+4. Envie para a branch original: git push origin feature/nova-ideia
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo LICENSE para mais detalhes.
